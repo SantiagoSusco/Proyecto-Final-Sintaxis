@@ -1,4 +1,4 @@
-program supe;
+program su;
 var a, b, c: real;
 var txt, res: string;
 begin
