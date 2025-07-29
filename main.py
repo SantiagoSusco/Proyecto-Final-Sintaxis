@@ -2,7 +2,7 @@
 import io
 from Lexer import ObtenerSiguienteCompLex
 from componentes import ERROR, PESOS
-ruta_archivo=r"C:\Users\santi\OneDrive\Escritorio\santiago\Facultad\Segundo año\Sintaxis y Semantica de los lenguajes\Proyecto Final Sintaxis\Analizador lexico\prueba.txt"
+ruta_archivo=r"C:\Users\santi\OneDrive\Escritorio\santiago\Facultad\Segundo año\Sintaxis y Semantica de los lenguajes\Proyecto-Final-Sintaxis\prueba.txt"
 def analizar_fuente(ruta_archivo):
     with open(ruta_archivo, 'r', encoding='utf-8') as Fuente:
         Control = 0
