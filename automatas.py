@@ -105,15 +105,13 @@ def automata_const_cadena(Fuente, Control):
     # debe comenzar con comilla
     if c != '"':
         return None
-
-    lexema = []
     pos = Control + 1
-
+    lexema=""
     Fuente.seek(pos)
     c = Fuente.read(1)
     # lee hasta cierre o EOF
     while c != '"' and c != "\n":
-        lexema.append(c) 
+        lexema+= c 
         pos += 1
         Fuente.seek(pos)
         c = Fuente.read(1)
