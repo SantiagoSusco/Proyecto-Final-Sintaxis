@@ -1,1 +1,6 @@
-x := a ^ 2;
+program prueba;
+var
+x:string;
+begin
+x:="hola";
+end;
