@@ -5,14 +5,14 @@ from automatas import automata_ident, automata_const_real, automata_const_cadena
 
 SIMBOLOS = {
     ":=": OPERADOR_ASIGNACION,
-    "<=": OPERADOR_RELACIONAL, ">=": OPERADOR_RELACIONAL,
-    "==": OPERADOR_RELACIONAL, "!=": OPERADOR_RELACIONAL,
+    "<=": MENOR_IGUAL, ">=": MAYOR_IGUAL,
+    "==": IGUAL, "!=": DISTINTO,
     "(" : PARENTESIS_ABRE, ")" : PARENTESIS_CIERRA,
     "+" : MAS,          "-" : MENOS,
     "*" : PRODUCTO,     "/" : DIVISION,
     ";" : PUNTO_Y_COMA, "," : COMA,
-    "." : PUNTO,        "<" : OPERADOR_RELACIONAL,
-    ">" : OPERADOR_RELACIONAL, "=" : OPERADOR_RELACIONAL,"^" : POTENCIA,":": DOS_PUNTOS,
+    "." : PUNTO,        "<" : MENOR,
+    ">" : MAYOR, "^" : POTENCIA,":": DOS_PUNTOS,
 }
 
 
