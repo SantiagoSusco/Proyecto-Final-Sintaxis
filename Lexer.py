@@ -12,7 +12,7 @@ SIMBOLOS = {
     "*" : PRODUCTO,     "/" : DIVISION,
     ";" : PUNTO_Y_COMA, "," : COMA,
     "." : PUNTO,        "<" : MENOR,
-    ">" : MAYOR, "^" : POTENCIA,":": DOS_PUNTOS,
+    ">" : MAYOR, "^" : POTENCIA,":": DOS_PUNTOS,"&":CONCATENAR,"=": IGUAL_SIMPLE
 }
 
 

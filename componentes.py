@@ -43,7 +43,9 @@ RAIZ                = "raiz"
 SUBCADENA           = "subcadena"
 BUSCAR              = "buscar"
 LONGITUD            = "longitud"
-POTENCIA            = "POTENCIA"
+POTENCIA            = "potencia"
+CONCATENAR          = "concatenar"
+IGUAL_SIMPLE       = "igual_simple"  # para '=' en expresiones
 # Control
 ERROR               = "error"
 PESOS               = "pesos"    # fin de archivo
